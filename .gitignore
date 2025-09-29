@@ -1,0 +1,4 @@
+models/next_words.h5
+models/token.pkl
+__pycache__/
+*.pyc

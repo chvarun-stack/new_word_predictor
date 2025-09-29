@@ -1,0 +1,28 @@
+My major project is titled Smart Crop Prediction Using Machine Learning.
+ The primary objective is to help farmers or agricultural decision-makers 
+determine the most suitable crop to cultivate based on environmental and soil parameters.
+
+For this, I first collected and preprocessed a dataset containing attributes 
+such as soil type, pH level, nitrogen, phosphorus, potassium content, temperature,
+ and rainfall.
+ Once the data was cleaned, I applied feature extraction techniques
+ to prepare it for machine learning models.
+
+In the backend, I implemented multiple classification algorithms including Naive Bayes,
+ Support Vector Machine, Logistic Regression, and Decision Tree.
+ I also used a Voting Classifier to combine the strengths of these models. 
+After evaluation, I found that K-Nearest Neighbors performed best for this 
+dataset because it captures local patterns effectively 
+
+The frontend was developed using HTML, CSS, and Bootstrap for responsiveness.
+ Users can input their soil and environmental data through a simple form,
+ which sends the data to the backend. 
+The backend, built with Django, processes the input,
+ uses the trained ML model, and returns whether the suggested crop is suitable or not.
+
+The project demonstrates the integration of machine learning with a real-world problem
+ and full-stack web development. It can be extended in the future by integrating 
+IoT sensors for real-time data collection, building a mobile app version, 
+or expanding the dataset for different regions. Overall, this project gave 
+me hands-on experience in data preprocessing, model selection, performance evaluation, 
+and deploying a machine learning solution in a web application."**
